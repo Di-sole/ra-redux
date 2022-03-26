@@ -1,6 +1,6 @@
 {
   "name": "editing",
-	"homepage": "https://di-sole.github.io/ra-redux",
+  "homepage": "https://di-sole.github.io/ra-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
