@@ -4,7 +4,7 @@ const initialState = {
 	price: ''
 };
 
-function serviceFormReduser(state = initialState, action) {
+function serviceFormReducer(state = initialState, action) {
 	const { type, payload } = action;
 	let newState;
 
@@ -20,4 +20,4 @@ function serviceFormReduser(state = initialState, action) {
 	}
 }
 
-export default serviceFormReduser;
+export default serviceFormReducer;

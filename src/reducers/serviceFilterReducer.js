@@ -2,7 +2,7 @@ const initialState = {
 	filterValue: ''
 };
 
-function serviceFilterReduser(state = initialState, action) {
+function serviceFilterReducer(state = initialState, action) {
 	const { type, payload } = action;
 
 	switch (type) {
@@ -15,4 +15,4 @@ function serviceFilterReduser(state = initialState, action) {
 	}
 }
 
-export default serviceFilterReduser;
+export default serviceFilterReducer;
